@@ -1,0 +1,60 @@
+:root {
+
+    /* Primary */
+
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* Neutral */
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+/* font-family: 'Fraunces', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+    width: 34rem;
+    height: 20rem;
+}
+
+.content {
+    background-color: var(--White);
+    border-radius: 0 0 1rem 1rem;
+    width: 34rem;
+    height: 40rem;
+}
