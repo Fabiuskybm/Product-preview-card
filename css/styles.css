@@ -17,6 +17,8 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 
+/* General Configuration */
+
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +45,9 @@ body {
     align-items: center;
 }
 
+
+/* Image Design */
+
 .image {
     background-image: url(../images/image-product-mobile.jpg);
     background-repeat: no-repeat;
@@ -52,6 +57,9 @@ body {
     height: 25rem;
 }
 
+
+/* Content Design */
+
 .content {
     display: flex;
     flex-direction: column;
@@ -60,6 +68,8 @@ body {
     width: 34rem;
     height: 36rem;
 }
+
+/* Text Design */
 
 .text {
     margin-left: 2rem;
@@ -97,6 +107,9 @@ body {
     font-family: 'Fraunces', serif;
 }
 
+
+/* Price Design */
+
 .price {
     display: flex;
     align-items: center;
@@ -112,6 +125,9 @@ body {
 .price p {
     font-size: 1.3rem;
 }
+
+
+/* Button Design */
 
 .button {
     background-color: var(--Dark-cyan);
@@ -133,5 +149,79 @@ body {
 
 .button:hover {
     background-color: rgba(7, 37, 26, 0.882)
+}
+
+
+/* DESKTOP DESIGN */
+
+@media (min-width: 1440px) {
+
+
+    /* Card configuration */
+
+    .card {
+        flex-direction: row;
+    }
+
+
+    /* Image configuration */
+
+    .image {
+        background-image: url(../images/image-product-desktop.jpg);
+        border-radius: 1rem 0 0 1rem;
+        height: 51.5rem;
+    }
+
+
+    /* Content & text configuration */
+
+    .content {
+        border-radius: 0 1rem 1rem 0;
+        height: 51.5rem;
+    }
+
+    .text {
+        margin-left: 3rem;
+    }
+
+    .text h5 {
+        font-size: 1.5rem;
+        margin: 4rem 0 2rem 0;
+    }
+
+    .text h3 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+        width: 30rem;
+    }
+
+    .text p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+        width: 26rem;
+    }
+
+
+    /* Price configuration */
+
+    .price {
+        margin: 0 0 3rem 3rem;
+    }
+
+    .price h3 {
+        font-size: 3.5rem;
+    }
+
+    .price p {
+        font-size: 1.4rem;
+    }
+
+
+    /* Button configuration */
+
+    .button {
+        padding: 2rem 0 2rem 0;
+    }
+
 }
 
