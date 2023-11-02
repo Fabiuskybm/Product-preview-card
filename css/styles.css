@@ -2,7 +2,7 @@
 
     /* Primary */
 
-    --Dark-cyan: hsl(158, 36%, 37%);
+    --Dark-cyan: hsl(158, 35%, 37%);
     --Cream: hsl(30, 38%, 92%);
 
     /* Neutral */
@@ -49,12 +49,89 @@ body {
     background-size: cover;
     border-radius: 1rem 1rem 0 0;
     width: 34rem;
-    height: 20rem;
+    height: 25rem;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     background-color: var(--White);
     border-radius: 0 0 1rem 1rem;
     width: 34rem;
-    height: 40rem;
+    height: 36rem;
 }
+
+.text {
+    margin-left: 2rem;
+}
+
+.text h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.text h3 {
+    color: var(--Very-dark-blue);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.text p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 29.5rem;
+    margin-bottom: 2rem;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Dark-grayish-blue);
+}
+
+.fraunces {
+    font-family: 'Fraunces', serif;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 0 0 2rem 2rem;
+}
+
+.price h3 {
+    color: var(--Dark-cyan);
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+.price p {
+    font-size: 1.3rem;
+}
+
+.button {
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 1.5rem 0 1.5rem 0;
+    width: 30rem;
+}
+
+.button svg {
+    margin-right: 1rem;
+}
+
+.button:hover {
+    background-color: rgba(7, 37, 26, 0.882)
+}
+
